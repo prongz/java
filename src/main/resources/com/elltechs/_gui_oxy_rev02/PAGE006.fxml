@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.elltechs._gui_oxy_rev02.PAGE006Controller">
+   <children>
+      <ImageView pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PAGE003_BACK.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="154.62" layoutY="396.16" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PAGE004_FREEAIR_CALB.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="714.0" layoutY="16.37" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PAGE004_RETEST.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="555.64" layoutY="40.13" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@PAGE004_COUNTER.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="341.97" fitWidth="253.04" layoutX="40.33" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PAGE004_REV02/KEYBOARD.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.44" fitWidth="166.19" layoutX="361.07" layoutY="37.65" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PAGE004_REV02/OXYGEN.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="249.91" fitWidth="277.37" layoutX="411.52" layoutY="119.28" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PAGE004_REV02/Y2-4.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="oxygenText" layoutX="554.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0.000">
+         <font>
+            <Font name="Arial" size="50.0" />
+         </font>
+      </Text>
+      <TextField fx:id="textbox1" layoutX="470.0" layoutY="103.0" maxHeight="83.0" maxWidth="199.0" minHeight="63.0" minWidth="150.0" prefHeight="83.0" prefWidth="186.0" promptText="00" scaleShape="false" style="-fx-background-color: transparent;">
+         <font>
+            <Font name="Arial" size="50.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextField>
+      <TextField fx:id="textbox2" layoutX="470.0" layoutY="166.0" maxHeight="83.0" maxWidth="199.0" minHeight="63.0" minWidth="150.0" prefHeight="83.0" prefWidth="186.0" promptText="00" scaleShape="false" style="-fx-background-color: transparent;">
+         <font>
+            <Font name="Arial" size="50.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextField>
+      <TextField fx:id="textbox4" layoutX="471.0" layoutY="292.0" maxHeight="83.0" maxWidth="199.0" minHeight="63.0" minWidth="150.0" prefHeight="83.0" prefWidth="186.0" promptText="00" style="-fx-background-color: transparent;">
+         <font>
+            <Font name="Arial" size="50.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="textbox3" layoutX="470.0" layoutY="230.0" maxHeight="83.0" maxWidth="199.0" minHeight="63.0" minWidth="150.0" prefHeight="83.0" prefWidth="186.0" promptText="00" style="-fx-background-color: transparent;">
+         <font>
+            <Font name="Arial" size="50.0" />
+         </font>
+      </TextField>
+      <Button fx:id="butMnus" blendMode="OVERLAY" layoutX="315.0" layoutY="296.0" mnemonicParsing="false" onAction="#buttMnusClk" prefHeight="76.0" prefWidth="78.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="but1" blendMode="OVERLAY" layoutX="40.0" layoutY="208.0" mnemonicParsing="false" onAction="#butt1Clk" prefHeight="76.0" prefWidth="78.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="but2" blendMode="OVERLAY" layoutX="127.0" layoutY="207.0" mnemonicParsing="false" onAction="#butt2Clk" prefHeight="76.0" prefWidth="78.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="but3" blendMode="OVERLAY" layoutX="215.0" layoutY="209.0" mnemonicParsing="false" onAction="#butt3Clk" prefHeight="76.0" prefWidth="78.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="but4" blendMode="OVERLAY" layoutX="40.0" layoutY="120.0" mnemonicParsing="false" onAction="#butt4Clk" prefHeight="76.0" prefWidth="78.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="but5" blendMode="OVERLAY" layoutX="128.0" layoutY="120.0" mnemonicParsing="false" onAction="#butt5Clk" prefHeight="76.0" prefWidth="78.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="but6" blendMode="OVERLAY" layoutX="216.0" layoutY="119.0" mnemonicParsing="false" onAction="#butt6Clk" prefHeight="76.0" prefWidth="78.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="but7" blendMode="OVERLAY" layoutX="42.0" layoutY="32.0" mnemonicParsing="false" onAction="#butt7Clk" prefHeight="76.0" prefWidth="78.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="but8" blendMode="OVERLAY" layoutX="132.0" layoutY="33.0" mnemonicParsing="false" onAction="#butt8Clk" prefHeight="76.0" prefWidth="71.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="but9" blendMode="OVERLAY" layoutX="216.0" layoutY="31.0" mnemonicParsing="false" onAction="#butt9Clk" prefHeight="76.0" prefWidth="78.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="butBack" blendMode="OVERLAY" layoutX="216.0" layoutY="296.0" mnemonicParsing="false" onAction="#buttBackClk" prefHeight="76.0" prefWidth="78.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="but0" blendMode="OVERLAY" layoutX="44.0" layoutY="297.0" mnemonicParsing="false" onAction="#butt0Clk" prefHeight="76.0" prefWidth="71.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="butEnt1" blendMode="OVERLAY" layoutX="624.0" layoutY="117.0" mnemonicParsing="false" onAction="#buttEnt1Clk" prefHeight="56.0" prefWidth="71.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="butReset" blendMode="OVERLAY" layoutX="715.0" layoutY="14.0" mnemonicParsing="false" onAction="#butResetClk" prefHeight="58.0" prefWidth="54.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="butfreeAir" blendMode="OVERLAY" layoutX="156.0" layoutY="399.0" mnemonicParsing="false" onAction="#butfreeAirClk" prefHeight="46.0" prefWidth="518.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="butPont" blendMode="OVERLAY" layoutX="127.0" layoutY="297.0" mnemonicParsing="false" onAction="#buttPontClk" prefHeight="76.0" prefWidth="78.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="butEnt2" blendMode="OVERLAY" layoutX="624.0" layoutY="181.0" mnemonicParsing="false" onAction="#buttEnt2Clk" prefHeight="56.0" prefWidth="71.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="butEnt3" blendMode="OVERLAY" layoutX="624.0" layoutY="244.0" mnemonicParsing="false" onAction="#buttEnt3Clk" prefHeight="56.0" prefWidth="71.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="butEnt4" blendMode="OVERLAY" layoutX="636.0" layoutY="307.0" mnemonicParsing="false" onAction="#buttEnt4Clk" prefHeight="56.0" prefWidth="71.0" style="-fx-background-color: transparent;" />
+   </children>
+</AnchorPane>
